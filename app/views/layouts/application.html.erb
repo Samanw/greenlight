@@ -52,7 +52,9 @@
 
     <!-- Primary color styling -->
     <%= stylesheet_link_tag themes_primary_path %>
-
+<style type="text/css">
+@import url(http://cdn.meetilo.com/cfonts.css); 
+    </style>
     <script type="text/javascript">
       // Include the correct translated strings for Javascript
       window.I18n = <%= current_translations.to_json.html_safe %>
